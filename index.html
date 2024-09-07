@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo center black-text">Вкусно & .</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#home" class="black-text">Главная</a></li>
+                <li><a href="#popular" class="black-text"><i class="material-icons left">search</i>Популярные рецепты</a></li>
+                <li><a href="#day" class="black-text">Рецепт дня</a></li>
+              </ul>
+            </div>
+          </nav>
+          <ul class="sidenav" id="mobile-demo">
+                <li><a href="#home" class="black-text">Главная</a></li>
+                <li><a href="#popular" class="black-text"><i class="material-icons left">search</i>Популярные рецепты</a></li>
+                <li><a href="#day" class="black-text">Рецепт дня</a></li>
+          </ul>
+    </header>
+    <div class="parallax-container" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                </div>
+                <div class="col s6">
+                    <h3>Сайт лучших рецептов</h3>
+                    <p>Подпищитесь на рассылку, что бы получать новые рецепты!</p>
+                    <div class="row">
+                        <form class="col s12 m6">
+                          <div class="row">
+                            <div class="input-field col s6">
+                              <i class="material-icons prefix">account_circle</i>
+                              <input id="icon_prefix" type="text" class="validate">
+                              <label for="icon_prefix">Ваше имя</label>
+                            </div>
+                            <div class="input-field col s6">
+                              <i class="material-icons prefix">email</i>
+                              <input id="icon_telephone" type="tel" class="validate">
+                              <label for="icon_telephone">Ваш mail</label>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="https://prime-star.ru/upload/iblock/96e/olioc8g7ew10kcb3gg3yv916xagxyrqq.jpg"></div>
+      </div>
+      <h1 class="center red" id="popular">Популярные рецепты</h1>
+      <div class="carousel carousel-slider center col s12 m6">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2">Подробнее</a>
+        </div>
+        <div class="carousel-item red white-text" href="#one!">
+          <h2>Котлетки по киевски</h2>
+          <img src="https://avatars.mds.yandex.net/get-entity_search/95107/751862513/SUx182_2x" style="width: 300px;">
+          <p class="white-text">Очень вкусные котлетки по Киевски</p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+          <h2>Жульен с курицей</h2>
+          <img src="https://avatars.mds.yandex.net/i?id=a145acc0c34d8780e92a9fc0c1040d61e6e72d2638dac55c-12527616-images-thumbs&n=13" style="width: 300px;">
+          <p class="white-text">рецепт довольно простой</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+          <h2>Крабовый салат</h2>
+          <img src="https://avatars.mds.yandex.net/i?id=9cdeee668836bbf24638800fe4d5ff0e063ddc13-4197982-images-thumbs&n=13" style="width: 300px;">
+          <p class="white-text">Очень вкусный и просто тает во рту</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+          <h2>Салат цезарь</h2>
+          <img src="https://avatars.mds.yandex.net/get-entity_search/2028178/877597538/SUx182" style="width: 200px;">
+          <p class="white-text">Самый популярный салат в мире</p>
+        </div>
+      </div>
+    <div class="section2 center green" id="day">
+        <h1>Рецепт дня</h1>
+    </div>
+    <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2">Подробнее</a>
+        </div>
+        <div class="carousel-item amber white-text" href="#one!">
+          <h2>Шоколадные валлийские кейки</h2>
+          <img src="https://www.povarenok.ru/data/cache/2024sep/05/02/3135555_37654-330x220x.jpg" style="width: 300px;">
+          <p class="white-text">Обязательно приготовьте из с семьей</p>
+        </div>
+      </div>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Обратная связь</h5>
+              <p class="grey-text text-lighten-4">здесь вы можетеобратиться к нам для добавления рецептов</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Ссылки</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Наша почта</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Телеграмм</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">VK</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2024 Вкусно & . Все права защищены 
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
